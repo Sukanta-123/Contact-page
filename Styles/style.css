@@ -9,13 +9,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1200px;
+    height: 1300px;
     margin: 0 auto;
 } 
 @media screen and  (max-width : 640px) {
     .container {
         width: 100%;
-        height: 1000px;
+        height: 1050px;
         margin: 0;
     }
 }
@@ -81,6 +81,8 @@ img {
     font-size: 0.875em;
     font-weight: 400;
     color: whitesmoke;
+    padding-bottom: 3px;
+    padding-left: 3px;
 }
 .placeholder-text {
     font-size: 1em;
@@ -90,9 +92,9 @@ img {
 }
 .input-box-width {
     width: 90%;
-    height: 55px;
+    height: 60px;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 @media screen and  (max-width : 640px) {
     .input-box-width {
@@ -100,7 +102,7 @@ img {
     }
 }
 .textarea-width {
-    width: 94.5%;
+    width: 93.8%;
     height: 250px;
     border: none;
     border-radius: 15px;
@@ -125,13 +127,14 @@ img {
 }
 @media screen and  (max-width : 640px) {
     .input-container-box {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 }
 .input-container {
     border: 2px solid transparent;
-    border-radius: 10px;
-    width: 70%;
+    border-radius: 25px;
+    width: 50%;
+    height: 600px;
     background: linear-gradient(135deg, #FFFFFF33, #FFFFFF33);
     backdrop-filter: blur(6px);
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
@@ -140,6 +143,7 @@ img {
     .input-container {
         border-radius: 25px;
         width: 70%;
+        height: 750px;
     }
 }
 button {
@@ -191,9 +195,20 @@ button > p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     margin: 0 auto;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+@media screen and  (min-width : 640px) and (max-width : 1000px) {
+    .input-container {
+        padding-right: 15px;
+    }
+    .input-container-box  {
+        padding-top: 40px;
+    }
+    button {
+        width: 98%;
+    }
 }
 @media screen and  (max-width : 640px) {
     .input-container {
