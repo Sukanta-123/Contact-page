@@ -89,7 +89,7 @@ img {
     padding-left: 15px;
 }
 .input-box-width {
-    width: 80%;
+    width: 90%;
     height: 55px;
     border: none;
     border-radius: 15px;
@@ -100,8 +100,8 @@ img {
     }
 }
 .textarea-width {
-    width: 90%;
-    height: 200px;
+    width: 94%;
+    height: 250px;
     border: none;
     border-radius: 15px;
 }
@@ -121,7 +121,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 .input-container {
     border: 2px solid transparent;
@@ -131,8 +131,14 @@ img {
     backdrop-filter: blur(6px);
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
 }
+@media screen and  (max-width : 640px) {
+    .input-container {
+        border-radius: 25px;
+        width: 70%;
+    }
+}
 button {
-    width: 92%;
+    width: 96.5%;
     height: 55px;
     border: none;
     border-radius: 15px;
