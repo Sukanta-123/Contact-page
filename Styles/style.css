@@ -100,7 +100,7 @@ img {
     }
 }
 .textarea-width {
-    width: 94%;
+    width: 94.5%;
     height: 250px;
     border: none;
     border-radius: 15px;
@@ -123,6 +123,11 @@ img {
     align-items: center;
     padding-top: 80px;
 }
+@media screen and  (max-width : 640px) {
+    .input-container-box {
+        padding-top: 40px;
+    }
+}
 .input-container {
     border: 2px solid transparent;
     border-radius: 10px;
@@ -138,7 +143,7 @@ img {
     }
 }
 button {
-    width: 96.5%;
+    width: 96.6%;
     height: 55px;
     border: none;
     border-radius: 15px;
